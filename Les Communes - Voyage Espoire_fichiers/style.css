@@ -1,0 +1,91 @@
+/*body{
+    background-color: #099;
+}*/
+#menuPane{
+    /*background-color: darkblue;*/
+    /*background-color: #ccccff;*/
+    background-image: url("img/entete2.png");
+    height: 150px;
+    /*   color:#00cccc;*/
+}
+#mainPane{
+    background-color: #CCCC99;
+    height:  777px;
+    text-align: center;
+    background-image: url("img/main.png");
+     overflow: auto;
+     
+
+}
+/*#mainpane.p{
+   text-align: center;
+    
+}*/
+#masterLayout{
+    background-color: aliceblue;
+}
+#navPane{
+    float: left;
+    width: 198px;
+    height: 777px;
+    background-image: url("img/arriere-plan-menu.png");
+   
+
+}
+
+#navPane p{
+    
+    height: 40px;
+    width: 168px;
+        padding-left:  10px;
+    padding-top: 16px;
+    margin: 0;
+    background-image: url("img/bouton.png");
+
+
+    text-align: center;
+}
+#navPane a{
+    color:#d3ef55;
+    font-size: 24px;
+    font-family: Trebuchet MS ;
+    text-shadow: 2px 3px 4px #014d23;
+    font-weight: bold;
+    
+}
+#navPane a:hover{
+   text-decoration: underline;
+   color: ghostwhite;
+}
+
+#statusPane {
+    clear: both;
+    background-image: url("img/footer.png");
+    height: 56px;
+
+}
+table {
+    border: medium solid #6495ed;
+    border-collapse: collapse;
+    width: 50%;
+    margin-left: 23%;
+}
+th {
+    font-family: monospace;
+    border: thin solid #6495ed;
+    width: 50%;
+    padding: 5px;
+    background-color: transparent;
+
+}
+td {
+    font-family: sans-serif;
+    border: thin solid #6495ed;
+    width: 50%;
+    padding: 5px;
+    text-align: center;
+    background-color: transparent;
+}
+caption {
+    font-family: sans-serif;
+}
