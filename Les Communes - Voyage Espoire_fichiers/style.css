@@ -4,17 +4,24 @@
 #menuPane{
     /*background-color: darkblue;*/
     /*background-color: #ccccff;*/
-    background-image: url("img/entete2.png");
+    background-image: url("img/entete3.png");
+    background-repeat:no-repeat;
     height: 150px;
-    /*   color:#00cccc;*/
+    border-left:1px solid black; 
+    border-right:1px solid black;
+    border-bottom:1px solid black;
+    border-top:1px solid black;
+    border-style: dashed;
+    border-radius: 3%;
 }
 #mainPane{
-    background-color: #CCCC99;
+
     height:  777px;
     text-align: center;
     background-image: url("img/main.png");
-     overflow: auto;
-     
+    background-repeat:no-repeat;
+    overflow: auto;
+
 
 }
 /*#mainpane.p{
@@ -22,46 +29,45 @@
     
 }*/
 #masterLayout{
-    background-color: aliceblue;
+width: 1400px;
 }
 #navPane{
     float: left;
-    width: 198px;
-    height: 777px;
-    background-image: url("img/arriere-plan-menu.png");
-   
+    width: 190px;
+    min-height:  777px;
 
 }
 
 #navPane p{
-    
+
     height: 40px;
-    width: 168px;
-        padding-left:  10px;
-    padding-top: 16px;
-    margin: 0;
-    background-image: url("img/bouton.png");
+    width: 198px;
 
+    padding-top: px;
 
+    margin: 10px;
     text-align: center;
+    background-image: url("img/bouton.png");
+    background-repeat:no-repeat;
 }
 #navPane a{
     color:#d3ef55;
     font-size: 24px;
     font-family: Trebuchet MS ;
-    text-shadow: 2px 3px 4px #014d23;
+    /*    text-shadow: 2px 3px 4px #658E00;*/
     font-weight: bold;
-    
+
 }
 #navPane a:hover{
-   text-decoration: underline;
-   color: ghostwhite;
+    /*    text-decoration: underline;*/
+    color: #658E00;
 }
 
 #statusPane {
     clear: both;
-    background-image: url("img/footer.png");
     height: 56px;
+    text-align: center;
+    color: #658E00;
 
 }
 table {
